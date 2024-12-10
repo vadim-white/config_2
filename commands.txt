@@ -1,0 +1,6 @@
+python3 -m unittest test_git_dependency_visualizer.py
+ python3 git_dependency_visualizer.py \
+  --repo ../Konfig_HM \
+  --branch main \
+  --output ./answer/graph.png \
+  --visualizer mmdc
